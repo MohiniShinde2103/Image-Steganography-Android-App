@@ -1,4 +1,4 @@
-
+<img src="https://github.com/MohiniShinde2103/Image-Steganography-Android-App/blob/main/images/cover.png" height = "500px"/>
 
 # Image Steganography
 Steganography is the process of hiding a secret message within a larger one in such a way that someone  cannot know the presence or contents of the hidden message. Although related, Steganography is not to be confused with Encryption, which is the process of making a message unintelligible—Steganography attempts to hide the existence of communication.
@@ -53,7 +53,7 @@ There are two options `Encode` and `Decode`. In the encode section you can hide 
 
 |                            Encode                            |                            Decode                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://github.com/aagarwal1012/Image-Steganography-Library-Android/blob/master/images/encode.gif" height = "500px"/> | <img src="https://github.com/aagarwal1012/Image-Steganography-Library-Android/blob/master/images/decode.gif" height = "500px"/> |
+| <img src="https://github.com/MohiniShinde2103/Image-Steganography-Android-App/blob/main/images/encode.gif" height = "500px"/> | <img src="https://github.com/MohiniShinde2103/Image-Steganography-Android-App/blob/main/images/decode.gif" height = "500px"/> |
 
 
 
