@@ -44,22 +44,7 @@ Following shows the bit level interpretation of the algorithm :
 Consider the following encoding, it is totally undetectable by human eyes.
 <div align="center"><img src="/images/original_encoded.png"/></div>
 
-# Usage
-Add it in your root `build.gradle` at the end of repositories:
-```groovy
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-```
-Now add the following dependency in your app's `build.gradle`
-```groovy
-dependencies {
-      implementation 'com.github.aagarwal1012:Image-Steganography-Library-Android:v1.0'
-}
-```
+
 ## How to encode message into an image ?
 **Note :** Your Activity class should implements `TextEncodingCallback` interface and also contains its `override` methods.
 
@@ -207,9 +192,7 @@ public class MainActivity extends AppCompatActivity implements TextDecodingCallb
 | Decoded | isDecoded() | Check that the decoding is over or not. | false       |
 | SecretKeyWrong | isSecretKeyWrong() | Check that the secret key provided was right or wrong but after decoding was done. | true     |
 
-#### Class Domain Diagram
 
-![](https://raw.githubusercontent.com/aagarwal1012/Image-Steganography-Library-Android/master/UML/UMLDOC.PNG)
 
 ### Example App
 
@@ -220,41 +203,6 @@ There are two options `Encode` and `Decode`. In the encode section you can hide 
 |                            Encode                            |                            Decode                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="https://github.com/aagarwal1012/Image-Steganography-Library-Android/blob/master/images/encode.gif" height = "500px"/> | <img src="https://github.com/aagarwal1012/Image-Steganography-Library-Android/blob/master/images/decode.gif" height = "500px"/> |
-# Want to contribute !
-
-This is the well `documented` library. I have documented each and every method that I have used, so have a good read to the code and suggest some changes and new feature to be added in the library.  
-Feel free to <a href = "https://github.com/aagarwal1012/Image-Steganography-Library-Android/issues">open an issue</a>.
-
-# Donate
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> - [PayPal](https://www.paypal.me/aagarwal1012/)
 
 
-# License
-**Image Steganography** is licensed under `MIT license`.
-
-```
-MIT License
-
-Copyright (c) 2018 Ayush Agarwal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
